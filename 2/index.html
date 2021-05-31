@@ -2,13 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>JavaScript Form Validation using a sample registration form</title>
+    <title>Validation form using JavaScript</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <script src="index.js"></script>
   </head>
   <body onload="document.registration.userid.focus();">
-    <h1>Registration Form</h1>
-    Use tab keys to move from one input field to the next.
+    <h1>Validation Form</h1>
     <form name="registration" onSubmit="return formValidation();">
       <ul>
         <li><label for="userid">User id:</label></li>
@@ -23,13 +22,23 @@
         <li>
           <select name="country">
             <option selected="" value="Default">
-              (Please select a country)
+              select country
             </option>
-            <option value="AF">Australia</option>
-            <option value="AL">Canada</option>
-            <option value="DZ">India</option>
-            <option value="AS">Russia</option>
-            <option value="AD">USA</option>
+            <option value="F">Armenia</option>
+            <option value="A">Argentina</option>
+            <option value="Z">India</option>
+            <option value="S">Andorra</option>
+            <option value="D">Nauru</option>
+            <option value="T">Australia</option>
+            <option value="ALA">Ecuador</option>
+            <option value="DEZ">Senegal</option>
+            <option value="ABS">Eritrea</option>
+            <option value="AQD">USA</option>
+            <option value="AUF">Guyana</option>
+            <option value="ANL">Canada</option>
+            <option value="DIZ">India</option>
+            <option value="AMS">Russia</option>
+            <option value="AYD">Venezuela</option>
           </select>
         </li>
         <li><label for="zip">ZIP Code:</label></li>
@@ -39,17 +48,11 @@
         <li><label id="gender">Sex:</label></li>
         <li>
           <input type="radio" name="msex" value="Male" /><span>Male</span>
-        </li>
-        <li>
           <input type="radio" name="fsex" value="Female" /><span>Female</span>
         </li>
         <li><label>Language:</label></li>
         <li>
-          <input type="checkbox" name="en" value="en" checked /><span
-            >English</span
-          >
-        </li>
-        <li>
+          <input type="checkbox" name="en" value="en" checked /><span>English</span>
           <input type="checkbox" name="nonen" value="noen" /><span>Hindi</span>
         </li>
         <li><label for="desc">About:</label></li>

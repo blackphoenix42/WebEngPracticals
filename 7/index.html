@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Scientific Calculator</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="title">Scientific Calculator</div>
+    <div class="title">Calculator</div>
 
     <form name="calc">
-      <table id="calc" border="2">
+      <table id="calc" border="10">
         <tr>
           <td colspan="5">
             <input
@@ -62,7 +62,7 @@
             <input
               id="btn"
               type="button"
-              value="<-"
+              value="&#8592;"
               OnClick="backspace(this.form)"
             />
           </td>
@@ -70,7 +70,7 @@
             <input
               id="btn"
               type="button"
-              value="="
+              value="	&#61;"
               OnClick="calculate(this.form)"
             />
           </td>
@@ -258,7 +258,7 @@
             <input
               id="btn"
               type="button"
-              value="pi"
+              value="&Pi;"
               OnClick="calc.display.value+='Math.PI'"
             />
           </td>

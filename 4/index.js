@@ -1,10 +1,10 @@
-var colors = ["red", "orange", "yellow", "green", "blue", "purple"];
-var currentIndex = 0;
+var c = ["red", "orangered", "yellowgreen", "pink", "purple","blue","cyan"];
+var Index = 0;
 
 setInterval(function () {
-    document.body.style.cssText = "background-color: " + colors[currentIndex];
-    currentIndex++;
-    if (currentIndex == undefined || currentIndex >= colors.length) {
-        currentIndex = 0;
+    document.body.style.cssText = "background-color: " + c[Index];
+    Index++;
+    if (Index >= c.length) {
+        Index = 0;
     }
-}, 1000);
+}, 5000);

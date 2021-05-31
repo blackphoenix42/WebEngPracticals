@@ -1,16 +1,20 @@
 h1 {
-  margin-left: 70px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 form li {
   list-style: none;
   margin-bottom: 5px;
+  margin-left: 33%;
 }
 
 form ul li label {
   float: left;
   clear: left;
   width: 100px;
-  text-align: right;
+  text-align: left;
   margin-right: 10px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -19,7 +23,7 @@ form ul li label {
 form ul li input,
 select,
 span {
-  float: left;
+  float: none;
   margin-bottom: 10px;
 }
 
@@ -30,8 +34,8 @@ form textarea {
 }
 
 [type="submit"] {
-  clear: left;
-  margin: 20px 0 0 230px;
+  clear: none;
+  margin: 20px 500px 0 250px;
   font-size: 18px;
 }
 

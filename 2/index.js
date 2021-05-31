@@ -45,7 +45,7 @@ function passid_validation(passid, mx, my) {
 }
 function allLetter(uname) {
     var letters = /^[A-Za-z]+$/;
-    if (uname.value.match(letters)) {
+    if (1) {
         return true;
     }
     else {
@@ -55,7 +55,7 @@ function allLetter(uname) {
     }
 }
 function alphanumeric(uadd) {
-    var letters = /^[0-9a-zA-Z]+$/;
+    var letters = /^[a-z\d\-_\s]+$/i;
     if (uadd.value.match(letters)) {
         return true;
     }
